@@ -1,7 +1,7 @@
 我的个人博客
 ================
 
-本项目是以 http://www.panxw.com(http://www.panxw.com) 为模板创建的博客。
+本项目是以 http://www.panxw.com 为模板创建的博客。
 
 ####原作者博客地址
 http://www.panxw.com  
