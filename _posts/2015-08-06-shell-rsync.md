@@ -9,7 +9,7 @@ tags: ["shell"]
 
 解决方法如下：
 
-```shell
+```
 rsync --exclude=.svn $SRC_DIR/ $DST_DIR/ -r
 ```
 
