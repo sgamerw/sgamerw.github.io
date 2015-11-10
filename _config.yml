@@ -1,23 +1,77 @@
-markdown: redcarpet
-permalink: /:categories/:title.html
-url: 
-lsi: false
+# Site settings
+title: Wuzheng Blog
+SEOTitle: 吴征的博客 | Game Blog
+header-img: img/home-bg.jpg
+email: wuzheng68@hotmail.com
+description: "关于游戏，关于程序。"
+keyword: ""
+url: "http://sgamerw.github.io"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+#weibo_username:     huxpro
+#zhihu_username:     huxpro
+github_username:    sgamerw
+#twitter_username:  huxpro
+#facebook_username:  huxpro
+
+
+
+# Build settings
 highlighter: pygments
-safe: true
-auto: false 
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-paginate: 8
-paginate_path: "page:num"
 
-# presonal config
-domain: sgamerw.github.io
-title: WuZheng's Blog
-description: Cocos2d-x, reading...
-author: Jacky Woo
-email: wuzheng68#hotmail.com
-github: sgamerw
 
-config:
-  js_dir:
-  img_dir:
-  css_dir:
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: sgamerw
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 2121e562879678189deb3e381f91b7f3
+# Google Analytics
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "121"
+sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+]
