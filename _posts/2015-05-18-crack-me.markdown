@@ -1,0 +1,65 @@
+---
+layout: post
+category: "破解"
+title: "Android的一个crackme分析和破解"
+tags: ["破解","Android"]
+---
+原文：http://www.kanxue.com/bbs/showthread.php?t=147356    
+作为一个新手，从这里入门。主要学习一下工具的使用和基本思路。
+
+### 程序源码 ###
+
+```java
+public void onCreate(Bundle savedInstanceState) 
+{ 
+    super.onCreate(savedInstanceState); 
+    setContentView(R.layout.main); 
+    mTextView01 = (TextView)findViewById(R.id.myTextView1);
+    mEditText01 = (EditText)findViewById(R.id.myEditText1); 
+    mEditText01.setOnKeyListener(new EditText.OnKeyListener() 
+    { 
+      	@Override 
+      	public boolean onKey(View arg0, int arg1, KeyEvent arg2)
+      	{
+        	// TODO Auto-generated method stub
+        	String str="gogo";
+        	if(str.equals("11")){
+          		mTextView01.setText(str);
+          		Toast.makeText(EX05_01.this, "right++", Toast.LENGTH_LONG).show();
+        	}
+        	else{
+          		mTextView01.setText(str); 
+          		Toast.makeText(EX05_01.this, "error--", Toast.LENGTH_LONG).show();
+        	}
+          /*判断输入的类型是何种，并与系统链接*/
+          Linkify.addLinks(mTextView01,Linkify.WEB_URLS|Linkify. EMAIL_ADDRESSES|Linkify.PHONE_NUMBERS);
+          return false;
+        } 
+	});
+}
+```
+>逻辑很简单，定义了一个字符串 **"gogo"** ，在文本框中进行输入时，用它和字符串 **"11"** 进行比较，如果相等会输出 **“right++”** ，如果不相等会输出 **“error--”** ，同时打印出字符串 **“gogo”** 。显然，程序运行会一直显示 **“error--”** 。
+
+### 运行结果 ###
+
+![run1](https://github.com/sgamerw/sgamerw.github.io/raw/master/images/2015-05-18-crack-me/1.png "Result")
+
+### 期望结果 ###
+
+> 程序在输入时显示 **“right++”** 。
+
+### Crack思路 ###
+
+1. **修改字符串**
+
+	把 **“gogo”** 和 **“11”** 改成相同字符串。这样会进入字符串相等的判断。输出 **“right++”** 。
+2. **修改 if 语句**
+
+	把 `str.equals("11")` 的相等条件改为不相等，让条件判断进入该分支。
+	
+### 工具 ###
+
+1. **ApkTool**
+
+	
+2. **JDK**
