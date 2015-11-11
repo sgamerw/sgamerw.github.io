@@ -1,10 +1,10 @@
 # Site settings
-title: Wuzheng Blog
-SEOTitle: 吴征的博客 | Game Blog
+title: WZ Blog
+SEOTitle: 吴征的博客 | About game and program
 header-img: img/home-bg.jpg
 email: wuzheng68@hotmail.com
 description: "关于游戏，关于程序。"
-keyword: ""
+keyword: "吴征 game program wuzheng"
 url: "http://sgamerw.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -61,8 +61,8 @@ ba_track_id: 2121e562879678189deb3e381f91b7f3
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "121"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "一个有好奇心的家伙。"
+sidebar-avatar: /img/avatar-wz.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 

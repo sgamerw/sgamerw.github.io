@@ -1,8 +1,11 @@
 ---
-layout: post
-category: "lua"
-title: "Lua面向对象的super"
-tags: ["lua"]
+layout:     post
+title:      "Lua面向对象的super"
+subtitle:   ""
+author:     "WZ"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - lua
 ---
 
 在Cocos2d-x-lua中，用以下方法实现了lua的继承机制来模拟面向对象。
