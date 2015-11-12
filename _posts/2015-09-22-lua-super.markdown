@@ -10,7 +10,7 @@ tags:
 
 在Cocos2d-x-lua中，用以下方法实现了lua的继承机制来模拟面向对象。
 
-```
+```lua
 function clone(object)
     local lookup_table = {}
     local function _copy(object)
@@ -94,7 +94,7 @@ end
 
 **Base.lua**
 
-```
+```lua
 local Base = class("Base")
 
 function Base:ctor()
@@ -105,7 +105,7 @@ return Base
 ```
 **Derived.lua**
 
-```
+```lua
 lcoal Base = require("Base")
 local Derived = class("Derived", Base)
 function Derived:ctor()

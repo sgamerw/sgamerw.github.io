@@ -12,7 +12,7 @@ tags:
 
 解决方法如下：
 
-```
+```bash
 rsync --exclude=.svn $SRC_DIR/ $DST_DIR/ -r
 ```
 

@@ -33,10 +33,16 @@ anchorjs: true                          # if you want to customize anchor. check
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+#markdown: kramdown
+#kramdown:
+#  input: GFM                            # use Github Flavored Markdown !important
 
+# redcarpet support lua highlight
+# with_toc_data make the catalog possible
+# document: https://george-hawkins.github.io/basic-gfm-jekyll/redcarpet-extensions.html
+markdown: redcarpet
+redcarpet:
+  extensions: ["smart", "with_toc_data"]
 
 
 # Disqus settings
