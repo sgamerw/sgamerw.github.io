@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Lua面向对象的super"
+title:      "Lua面向对象的super关键字"
 subtitle:   ""
 author:     "WZ"
 header-img: "img/post-bg-2015.jpg"
@@ -111,7 +111,7 @@ local Derived = class("Derived", Base)
 function Derived:ctor()
 	Derived.super.ctor(self) 	-- 方式1
 	-- self.super.ctor(self)	-- 方式2
-	-- Base.ctor(self)			-- 方式3
+	-- Base.ctor(self)		-- 方式3
 	self.super = 0
 end
 
