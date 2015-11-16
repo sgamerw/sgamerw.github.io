@@ -3,7 +3,7 @@ layout:     post
 title:      "protobuf格式化翻译"
 subtitle:   "词法语法分析"
 author:     "WZ"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-pb-lua-parser.jpg"
 tags:
     - protobuf
 ---
