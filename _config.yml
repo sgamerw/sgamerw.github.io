@@ -18,7 +18,7 @@ github_username:    sgamerw
 #twitter_username:  huxpro
 #facebook_username:  huxpro
 
-
+gems: [jekyll-paginate]
 
 # Build settings
 highlighter: pygments
