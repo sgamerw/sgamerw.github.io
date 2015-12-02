@@ -40,9 +40,10 @@ anchorjs: true                          # if you want to customize anchor. check
 # redcarpet support lua highlight
 # with_toc_data make the catalog possible
 # document: https://george-hawkins.github.io/basic-gfm-jekyll/redcarpet-extensions.html
+# tables need this very extensions : "tables"
 markdown: redcarpet
 redcarpet:
-  extensions: ["smart", "with_toc_data"]
+  extensions: ["smart", "with_toc_data", "tables"]
 
 
 # Disqus settings
