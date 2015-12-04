@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "《浪潮之巅》"
+--title:      "《浪潮之巅》"
 subtitle:   "On Top of Tides"
 author:     "WZ"
 header-img: "img/post-bg-2015.jpg"
@@ -13,3 +13,4 @@ tags:
 吴军的新书《大学之路》出版，自己的女儿也正面临留学择校的问题。
 
 在会后，外面有吴军的书籍出售，浪潮之巅是很早就听说过的书。当时买下了《浪潮之巅》和《大学之路》两部书，共四本。
+
