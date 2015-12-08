@@ -1,6 +1,6 @@
 ---
 layout:     post
---title:      "《浪潮之巅》"
+title:      "《浪潮之巅》"
 subtitle:   "On Top of Tides"
 author:     "WZ"
 header-img: "img/post-bg-2015.jpg"
