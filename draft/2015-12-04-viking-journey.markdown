@@ -1,6 +1,6 @@
 ---
 layout:     post
---title:      "Viking's Journey:The Road to Valhalla"
+title:      "Viking's Journey:The Road to Valhalla"
 subtitle:   "游戏体验"
 author:     "WZ"
 header-img: "img/post-bg-2015.jpg"
