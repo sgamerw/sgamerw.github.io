@@ -16,9 +16,7 @@ tags:
 
 最近在玩的这款「Viking's Journey」和以前玩过的「[dungelot](http://wzblog.cn/2014/04/02/dungelot/)」是一个公司出的。我就是通过查看开发人员其它APP来挖出来的。果不其然，这款游戏和「dungelot」一样具有非常高的可玩性，说会上瘾也不为过。
 
-![viking-journey](/img/in-post/2015/12/viking1.PNG)
-![viking-journey](/img/in-post/2015/12/viking2.jpeg)
-![viking-journey](/img/in-post/2015/12/viking7.png)
+![viking-journey](/img/in-post/2015/12/viking1.PNG)![viking-journey](/img/in-post/2015/12/viking2.jpeg)![viking-journey](/img/in-post/2015/12/viking7.png)
 
 云风的博客中说：[如果你对一款游戏有了深入的了解，你就会去想游戏背后的内在逻辑，是什么导致游戏粘住用户的。当把这些剥离出来，你就可以设计属于自己的东西了。](http://blog.codingnow.com/2015/08/xdzy.html)
 

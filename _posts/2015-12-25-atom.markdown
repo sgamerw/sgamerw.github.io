@@ -1,0 +1,12 @@
+---
+layout:     post
+title:      Atom
+subtitle:   编辑器
+author:     "WZ"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 折腾
+    - Atom
+---
+
+刚工作那会儿，跟着公司同事用的一款编辑器，已经记不清叫什么了。后来自己接触到vim，开始了折腾之旅，在网络上找了大量的资料，学习配置和操作vim。从最初的自己安装每一个插件，一行行的在vimrc中配置，到后来使用`spf13/spf13-vim`一键配置，但是vim下的全局搜索一直是硬伤，也没有找到好用的插件。
