@@ -64,11 +64,11 @@ end
 
 在[这本书](http://pan.baidu.com/s/1qWvgmPu)的帮助下，以及参考了一下 lua 的源代码实现了这个需求。
 
-![自制编程语言]({{ site.baseurl }}/img/post-zzbcyy.png)
+![自制编程语言](/img/in-post/2015/11/zzbcyy.png)
 
 代码在[这里](https://github.com/sgamerw/pb2lua)，词法分析先拆分出每一个 token ，因为翻译规则简单，语法分析是 hard coding。后面再碰到类似需求，有这次的实践做支撑。
 
 现在的版本还很初级，后续还可以
- 
+
  1. 添加行号，遇到错误可以报出是第几行；
  2. 在变量名和保留字的解析处可以参考 lua 源代码，查表判断字符。
