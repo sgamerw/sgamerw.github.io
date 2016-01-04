@@ -3,10 +3,11 @@ layout:     post
 title:      "Dungelot游戏体验"
 subtitle:   "角色,技能,道具,没有一样让你觉得多余"
 author:     "WZ"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/in-post/2014/04/dungelot-bg.jpg"
 tags:
     - 游戏体验
 ---
+![icon](/img/in-post/2014/04/dungelot-icon.jpeg)
 
 ### 目标
 

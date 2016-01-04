@@ -3,11 +3,11 @@ layout:     post
 title:      "Viking's Journey:The Road to Valhalla"
 subtitle:   "游戏体验"
 author:     "WZ"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/in-post/2015/12/viking-bg.jpg"
 tags:
     - 游戏体验
 ---
-
+![viking](/img/in-post/2015/12/viking3.jpg)
 > 由一款游戏，发掘一个公司
 
 一直都想做一款独立游戏，所以在玩游戏的同时，当发现这款游戏玩法简单，而又不失可玩性的时候就会特别留意。除了留意游戏之外，还会去查看开发人员的其它APP，顺藤摸瓜，希望能发现更多有意思的游戏 :)
