@@ -21,4 +21,22 @@ tags:
 > * make or make macosx
 > * ./ej2d examples/ex01.lua to test
 
-用 [homebrew](http://brew.sh) 安装了 glfw3 和 freetype2 之后，make 一下，提示找不到 GLFW/glfw3.h 头文件（window.c中引用）和 ft2build.h 头文件（winfont.c中引用）。多次确认已经安装了这两个库之后，猜想可能是搜索路径有问题，又去网上查了下 Makefile 文件的写法，添加了相应的搜索路径，接着又报出 glfw3 链接错误，一大堆 `ld: symbols not found for architecture x86_64` ，就没有再纠结 Makefile 了，还是直接跑 mac/example/example.xcodeproj，打开项目，已经看到代码里找不到 ft2build.h 文件了，在 Xcode 下配置一下头文件搜索路径，然后查看了下库文件搜索路径，确认都正确了之后，再次 run 一次，报出了同样的链接 glfw3 错误，一开始查了很多 `ld: symbols not found for architecture x86_64` 错误的原因，一直都没有解决问题，直到搜索其他的错误信息，找到了[这篇帖子](http://stackoverflow.com/questions/18391487/compiling-with-glfw3-linker-errors-undefined-reference)，和我的问题一样，我按照这上面的做法，添加了 `Cocoa`,`IOKit`,`CoreVideo` 3个系统库依赖之后，模拟器成功的运行起来，终于让我看到了游戏界面。
+#####用 [homebrew](http://brew.sh) 安装 glfw3 和 freetype2
+
+```
+brew install freetype         
+
+brew install glfw3
+```
+在「Other Linker Flags」中加入`-lfreetype`和`-lglfw3`
+
+#####直接编译mac/example/example.xcodeproj
+
+需要配置一下头文件和库文件的搜索路径，在「Build Settings」里给「Header Search Paths」加上`/usr/local/include/freetype2`，给「Library Search Paths」加上`/usr/local/lib`。  
+
+再次编译，仍然会报出glfw3的很多错误，在[这篇帖子](http://stackoverflow.com/questions/18391487/compiling-with-glfw3-linker-errors-undefined-reference)中找到答案，需要添加`Cocoa`,`IOKit`,`CoreVideo` 3个系统库依赖。     
+
+[之后还需要在「Other Linker Flags」中加入`-undefined dynamic_lookup`](https://github.com/cloudwu/pbc/issues/64)。
+
+编译通过。
+![ejoy2d](/img/in-post/2015/12/ejoy1.jpg)
