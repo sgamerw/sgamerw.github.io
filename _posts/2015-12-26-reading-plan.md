@@ -18,10 +18,25 @@ tags:
 代码大全|20%|
 深入理解计算机系统|0%|
 计算机程序的构造和解释|0%|
-从0到1|0%|
+从0到1|30%|
 C++ Primer|0%|
 创业维艰|0%|
 联盟|0%|
 数学之美|0%|
 乌合之众|0%|
 取悦的工序--如何理解游戏|0%|
+
+---------
+
+###另外
+还有一个计划，希望自己在新一年中，英语水平能有一定进步，在查找阅读国外资料的时候更自如，这样能接触到更多更新的信息。
+
+[LearnOpenGL](http://learnopengl.com)和[Game Programming Patterns](http://gameprogrammingpatterns.com)都是我这一年里要读的英文教程和书籍，都是非常优秀的资料，通过阅读这些让英语的学习和运用互相促进。
+
+顺便简单介绍一下这2个网站：
+
+1. [LearnOpenGL](http://learnopengl.com)
+> 这个网站是从[子龙山人](http://zilongshanren.com/blog/2015-11-23-a-few-good-habit-i-keep-for-years.html)的blog里了解到的。直接读英文版，目前已经读了几个小节，对比我以前看过的其他的翻译教程，这里写的更加清楚明白，而且一步一步的教，包括OpenGL函数的悬浮提示，每一节后的代码展示等等，都对新手非常友好。
+
+2. [Game Programming Patterns](http://gameprogrammingpatterns.com)
+> 这个网站是从知乎的一篇回答中看到的，进来之后发现了一片新天地，去年已经读了一大半了，今年准备重读一遍。这是一本关于游戏设计模式的书，作者原来是Electronic Arts的一名游戏程序员，现在在Google，书里讲了一些游戏编程相关的实用技能，非常推荐。
