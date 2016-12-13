@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="关于游戏，关于程序"><title>生活-观察-记录 | 吴征的笔记本</title><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/4.2.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/0.6.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/0.6.0/grids-responsive-min.css"><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">生活-观察-记录</h1><a id="logo" href="/.">吴征的笔记本</a><p class="description">游戏 &amp;&amp; 程序</p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a></div></div><div id="layout" class="pure-g"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">生活-观察-记录</h1><div class="post-meta">Jan 22, 2016<script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> Hits</span></span></div><a data-thread-key="2016/01/22/life-record/" href="/2016/01/22/life-record/#comments" class="ds-thread-count"></a><div class="post-content"><p>在生活里使用软件和玩游戏的过程中，总会发现一些设计，让你觉得很自然，不易察觉，但回味过后才觉得这种看似「理所当然」的设计是最贴心、合理的，虽然我不是设计师，对专业的交互设计也没有经过系统的学习，但是生活体验的积累也是一种学习，所以也想开篇记录一下，积累一下自己的「用户体验」经验 :)</p>
+<ol>
+<li><p>Mac的废纸篓，在点击「清倒」之后，窗口会直接关闭。</p>
+<blockquote>
+<p>如果不关闭窗口，那么玩家的行为大多数也是关闭窗口，因为这个窗口再不提供什么信息展示了，在操作流程上，系统帮助玩家进行了这一步操作，同样的，在我们的游戏中，每日签到设计了一次二次确认，即是在领取之后弹窗提示领取成功，玩家得把窗口关闭，这样的交互不仅没有帮助用户精简操作，反而增加操作步数，不可取。</p>
+</blockquote>
+</li>
+<li><p>“如果你一时无法完全领会，没关系，后面还有更详细的说明和更多的实例”。</p>
+<blockquote>
+<p>在我看一篇英文的OpenGL系列教程的时候，里面有这样一段话，当时我感觉大大减轻了我的压力，因为一些计算性的东西，可能需要一些练习，实操才能理解算法的逻辑，但是原来学校老师给我的感觉就是老师这一点讲过了你就得要理解了，如果没领会那么我就有问题，上课没听讲，像上面这样的学习体验更加让人舒心，更少挫败感，更加想继续往下读。</p>
+</blockquote>
+</li>
+<li><p>游戏场景切换时，loading界面显示的内容根据时长而定。</p>
+<blockquote>
+<p>在我们的游戏中，loading时间很短，这是好事，但是在这个界面从上至下放了3句话，在loading时并不能看清楚，而且放的还是很重要的提示，也是个错误的决定。在bigfish casino里，有的关卡loading时间很长，在这段时间里放入玩法提示，没有问题。但是这样长时间的loading并不是优势。</p>
+</blockquote>
+</li>
+<li><p>精简玩家操作流程。</p>
+<blockquote>
+<p>在我们的casino游戏里，长时间不操作会被踢出房间，提示面板上只有一个「确定」，玩家点击后退出房间，玩家如果还要继续玩，需要再次点击进入房间。部分玩家离开房间还想重新进入的就得进行2步操作。比较好的设计是，留出2个选项，「确定退出」和「重新进入」，想离开和想继续的玩家都只需要一步操作。</p>
+</blockquote>
+</li>
+<li><p>UI风格。</p>
+<blockquote>
+<p>在游戏设计之初，如果能预见游戏针对的用户群的特征，应该同游戏类型一起考虑，相应的设定UI风格，因为项目目前碰到大部分玩家为中年人，决定修改所有UI风格。</p>
+</blockquote>
+</li>
+<li><p>牙线。</p>
+<blockquote>
+<p>第一次用牙线，用过之后感觉非常清爽，干净，感觉清除了最后的角落，让人上瘾，游戏里有没有这样的东西？任务的清除？提示红点的清除？强迫症玩家的最爱？</p>
+</blockquote>
+</li>
+<li><p>bigfish和星城online</p>
+<blockquote>
+<p>bigfish，slotmania有很多关卡，它们采取关卡解锁的思路，让玩家不断接受新的关卡的刺激，这样的方式在玩家解锁全部关卡之后可能会丧失目标，但是在玩家升级时可以引导玩家一直尝试新关卡，让玩家尽可能多的体验不同的关卡。星城online的关卡相对较少，关卡不限等级，没有升级时解锁关卡的引导，玩家可能在初次游戏过程中体验的关卡较少，但是这样每个关卡都对玩家有相同的吸引力，玩家会偏向于可玩性高的关卡。星城online在游戏内，两边放3个玩家，我认为就是为了给其他关卡倒流，同时让玩家觉得有人一起玩，给游戏制造人气。</p>
+</blockquote>
+</li>
+</ol>
+</div><script type="text/javascript" src="/js/share.js?v=0.0.0" async></script><a data-url="http://wzblog.cn/2016/01/22/life-record/" data-id="ciwn7a3yi000ztltgw1yi8pve" class="article-share-link">分享到</a><div class="tags"><a href="/tags/生活/">生活</a></div><div class="post-nav"><a href="/2016/03/04/100-heroes/" class="pre">百将行游戏体验</a><a href="/2016/01/19/zhihu-dudu/" class="next">从知乎日报到读读日报</a></div><div data-thread-key="2016/01/22/life-record/" data-title="生活-观察-记录" data-url="http://wzblog.cn/2016/01/22/life-record/" class="ds-share flat"><div class="ds-share-inline"><ul class="ds-share-icons-16"><li data-toggle="ds-share-icons-more"><a href="javascript:void(0);" class="ds-more">分享到：</a></li><li><a href="javascript:void(0);" data-service="weibo" class="ds-weibo">微博</a></li><li><a href="javascript:void(0);" data-service="qzone" class="ds-qzone">QQ空间</a></li><li><a href="javascript:void(0);" data-service="qqt" class="ds-qqt">腾讯微博</a></li><li><a href="javascript:void(0);" data-service="wechat" class="ds-wechat">微信</a></li></ul><div class="ds-share-icons-more"></div></div></div><div data-thread-key="2016/01/22/life-record/" data-title="生活-观察-记录" data-url="http://wzblog.cn/2016/01/22/life-record/" data-author-key="1" class="ds-thread"></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank" class="search-form"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://wzblog.cn"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/拼命玩/" style="font-size: 15px;">拼命玩</a> <a href="/tags/shell/" style="font-size: 15px;">shell</a> <a href="/tags/lua/" style="font-size: 15px;">lua</a> <a href="/tags/生活/" style="font-size: 15px;">生活</a> <a href="/tags/程序思考/" style="font-size: 15px;">程序思考</a> <a href="/tags/cocos2d-x/" style="font-size: 15px;">cocos2d-x</a> <a href="/tags/设计模式/" style="font-size: 15px;">设计模式</a> <a href="/tags/读书/" style="font-size: 15px;">读书</a> <a href="/tags/折腾/" style="font-size: 15px;">折腾</a> <a href="/tags/Atom/" style="font-size: 15px;">Atom</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/10/24/slots-tournament/">老虎机游戏赛事</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/02/play-town-ship/">Township游戏体验</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/11/thinking-in-localization/">多语言的一些思考</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/04/100-heroes/">百将行游戏体验</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/22/life-record/">生活-观察-记录</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/19/zhihu-dudu/">从知乎日报到读读日报</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/26/reading-plan/">2016年书单</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/25/atom/">Atom</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/11/ejoy2d-environment/">Ejoy2d环境搭建爬坑指南</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/07/growth-hacker/">《增长黑客》</a></li></ul></div><div class="widget"><div class="comments-title"><i class="fa fa-comment-o"> 最近评论</i></div><div data-num-items="5" data-show-avatars="0" data-show-time="1" data-show-admin="0" data-excerpt-length="32" data-show-title="1" class="ds-recent-comments"></div></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.panxw.com" title="Panxw's Blog" target="_blank">Panxw's Blog</a><ul></ul><a href="http://zengrong.net" title="zrong's blog" target="_blank">zrong's blog</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">© <a href="/." rel="nofollow">吴征的笔记本.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a id="rocket" href="#top" class="show"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.css?v=0.0.0"><script>var duoshuoQuery = {short_name:'sgamerw'};
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+        || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?d1a49d014702b1a1584624ceb5713f97";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+  })();
+</script><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
